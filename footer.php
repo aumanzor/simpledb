@@ -1,0 +1,2 @@
+<p class="h6 col-sm-12 text-center">copyright &copy Rinodevs 2021 Designed by <a href="#">Rinodevs</a> 
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt praesentium esse hic! Qui rem perspiciatis </p>
