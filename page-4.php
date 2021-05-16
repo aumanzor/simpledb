@@ -17,11 +17,11 @@
     <div class="row" style="padding-left:0px;">
     <nav class="col-sm-2">
     <ul class="nav nav-pills flex-column">
-    <?php include ('nav.php') ?>
+    <?php $page= 'page-4'; include ('nav.php') ?>
     </ul>
     </nav>
     <div class="col-sm-8">
-    <h2 class="text-center">This a home page</h2>
+    <h2 class="text-center">This a page number 4</h2>
     <p>The home page content.The home page content.The home page content.The home page content.
     The home page content.The home page content.
     <br>
@@ -39,6 +39,7 @@
     <?php include ('footer.php')?>
     </footer>
     </div>
+    
 
 </body>
 
