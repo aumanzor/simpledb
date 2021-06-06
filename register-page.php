@@ -74,18 +74,22 @@
     </div>
     </form>
     </div>
-    <?php if(!isset($errorstring)){
-        echo'<aside class="col-sm-2">';
+    <?php
+if(!isset($errorstring)) {
+        echo '<aside class="col-sm-2">';
         include('info-col.php');
-        echo'</aside>';
-        echo'</div>';
-        echo 'footer class="jumbotron text-center row col-sm-12" style="padding-bottom:1px;padding-top:8px;">';
-    }
-    else{
-        echo '<footer class="jumbotron text-center col-sm-12" style="padding-bottom:1px; padding-top:8px;">';
-    }
-    include('footer.php');    
-?>
-</div>    
+        echo '</aside>';
+        echo '</div>';
+        echo '<footer class="jumbotron text-center row col-sm-14"
+                style="padding-bottom:1px; padding-top:8px;">';
+ }
+ else
+ {
+        echo '<footer class="jumbotron text-center col-sm-12"
+        style="padding-bottom:1px; padding-top:8px;">';
+ }
+  include('footer.php');
+ ?>
+</div>
 </body>
 </html>

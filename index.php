@@ -9,6 +9,7 @@
 			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
 			  crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<script src="veryfy.js"></script>
     
 </head>
 <body>
@@ -42,7 +43,7 @@
     <?php include ('footer.php')?>
     </footer>
     </div>
-    <?php include ('function.php')?>
+    
 
 </body>
 
